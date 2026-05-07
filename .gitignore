@@ -5,9 +5,24 @@ outputs/
 data/train_phase1.csv
 data/eval.csv
 data/train_phase2.csv
-sa-key.json
+sa_key.json
 .env
 .venv/
-__pycache__/
-*.pyc
+pycache/
+.pyc
 .DS_Store
+.pytest_cache/
+.trash/
+gcp-key.json
+# MLflow tracking data - should not be committed
+mlruns/
+# Python artifacts
+*.pkl
+*.pyc
+__pycache__/
+# DVC files
+.dvc/
+.dvcignore
+# IDE files
+.vscode/
+.idea/
