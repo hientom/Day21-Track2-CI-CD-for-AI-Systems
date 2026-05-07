@@ -5,7 +5,7 @@ outputs/
 data/train_phase1.csv
 data/eval.csv
 data/train_phase2.csv
-sa_key.json
+sa-key.json
 .env
 .venv/
 pycache/
